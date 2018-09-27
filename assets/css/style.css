@@ -1,5 +1,6 @@
 * {
     background-color:#e6dbdb;
+    box-sizing: border-box;
 }
 
 ul {
@@ -146,3 +147,56 @@ label{
     margin: 10px;
 }
 
+@media screen and (max-width: 980px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color:white;
+    }
+  
+    /* The wrapper's width will be 600px */
+    header {
+      width: 100%;
+      position: static;
+    }
+  
+    #main-content #text #contact-me #name #pictures{
+        width: 100%;
+      }
+    }
+    
+  
+  
+  @media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color:lightblue;
+    }
+  
+    /* The wrapper's width will be 600px */
+  
+    header {
+        width: 100%;
+        position: static;
+    }
+  
+    #main-content #text #contact-me #name #pictures{
+        width: 100%;
+      }
+    }
+  
+  @media screen and (max-width: 640px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color:grey;
+    }
+  
+    /* The wrapper's width will be 600px */
+    header {
+        width: 100%;
+        position: static;
+    }
+  
+    #main-content #text #contact-me #name #pictures{
+        width: 100%;
+      }
+    }
