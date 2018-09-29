@@ -1,20 +1,5 @@
 * {
     background-color:#e6dbdb;
-    box-sizing: border-box;
-}
-
- body, header{  
-    width: 100%;
-    height: 100%;
-    background-color: pink;
-    -webkit-animation-name: "animation"; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: "animation";
-    animation-duration: 4s;
-}
-@keyframes animation {
-    from {background-color: pink;}
-    to {background-color: white;}
 }
 
 ul {
@@ -65,8 +50,6 @@ h2{
     margin-bottom : 15px;
     font-size: 18px;
 }
-
-    
 
 #footer{
     background-color:#666666;
@@ -150,81 +133,62 @@ label{
     text-align: center;
     width : 100%;
     padding-top : 300px;
-    width: 100%;
-    height: 100%;
-    background-color: pink;
-    -webkit-animation-name: "animation"; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: "animation";
-    animation-duration: 4s;
 }
-@keyframes animation {
-    from {background-color: pink;}
-    to {background-color: white;}
-}
-   
 
 #namehead{
     color: #e6dbdb;
     background-color: white;
 }
 
-#pictures{
-    float : left;
-    width : 45%;
-    margin: 10px;
+
+.photo{
+    width : 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 25px;
+
 }
 
 @media screen and (max-width: 980px) {
-    /* The body's bg color will be #333 */
-    body {
-      background-color:white;
+    body{
+        width: 980px;
     }
-  
-    /* The wrapper's width will be 600px */
-    header {
-      width: 100%;
-      position: static;
-    }
-  
-    #main-content #text #contact-me #name #pictures{
-        width: 100%;
-      }
-    }
+
+    .photo{
+        width : 300px;
+        margin-left: 300px;
+        margin-right: 300px;
+        padding-bottom: 25px;
     
-  
-  
-  @media screen and (max-width: 768px) {
-    /* The body's bg color will be #333 */
-    body {
-      background-color:lightblue;
     }
-  
-    /* The wrapper's width will be 600px */
-  
-    header {
-        width: 100%;
-        position: static;
+
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        width: 768px;
     }
-  
-    #main-content #text #contact-me #name #pictures{
-        width: 100%;
-      }
+
+    .photo{
+        width : 200px;
+        margin-left: 300px;
+        margin-right: 300px;
+        padding-bottom: 25px;
+    
     }
-  
-  @media screen and (max-width: 640px) {
-    /* The body's bg color will be #333 */
-    body {
-      background-color:grey;
+
+}
+
+@media screen and (max-width: 640px) {
+    body{
+        width: 640px;
     }
-  
-    /* The wrapper's width will be 600px */
-    header {
-        width: 100%;
-        position: static;
+    .photo{
+        width : 100px;
+        margin-left: 300px;
+        margin-right: 300px;
+        padding-bottom: 25px;
+    
     }
-  
-    #main-content #text #contact-me #name #pictures{
-        width: 100%;
-      }
-    }
+
+}
