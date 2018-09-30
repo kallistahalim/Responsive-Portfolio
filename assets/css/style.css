@@ -118,6 +118,10 @@ input[type=text], textarea {
     border-color: white;
 }
 
+input[type=submit] {
+   background-color:  #ffffff; 
+}
+
 label{
     font-family: ‘Montserrat’, sans-serif;
     color: white;
